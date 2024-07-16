@@ -8,6 +8,6 @@ dotenv.config();
 async function bootstrap() {
   const app = await NestFactory.create(AppModule, { cors: true });
   app.useGlobalPipes(new ValidationPipe());
-  await app.listen(4000);
+  await app.listen(process.env.port, '0.0.0.0' );
 }
 bootstrap();
