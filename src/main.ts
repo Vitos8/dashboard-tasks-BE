@@ -4,7 +4,6 @@ import * as dotenv from 'dotenv';
 import { ValidationPipe } from '@nestjs/common';
 import * as process from "process"
 dotenv.config();
-import cors from 'cors'
 
 async function bootstrap() {
   const port = process.env.PORT || 4000

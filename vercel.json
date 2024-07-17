@@ -10,7 +10,7 @@
         "NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY": "pk_test_cHJvZm91bmQtY29uZG9yLTY3LmNsZXJrLmFjY291bnRzLmRldiQ",
         "CLERK_SECRET_KEY": "sk_test_OHgIjFdKsQerGLPETqx1FPXeMXaU9VV9Rp5sC0ifMa",
         "DATABASE_URL": "mongodb+srv://vitalikgolubovichwork:vitoslavandos@cluster0.rjp8dhu.mongodb.net/test",
-        "PORT": 5000
+        "PORT": "5000"
     },
     "buildCommand": "yarn run build && prisma generate",
     "routes": [
