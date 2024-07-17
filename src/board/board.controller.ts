@@ -1,6 +1,5 @@
-import { Body, Controller, Delete, Get, Param, Post, Put, Query, UseGuards } from '@nestjs/common';
+import { Body, Controller, Delete, Get, Param, Post, Put, Query } from '@nestjs/common';
 import { ROUTES } from './constants';
-import { ClerkAuthGuard } from 'src/auth/clerk.auth.guard';
 import { CreateBoardDto } from './dto/create-board-dto';
 import { BoardService } from './board.service';
 
