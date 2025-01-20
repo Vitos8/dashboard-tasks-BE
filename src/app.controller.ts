@@ -9,4 +9,25 @@ export class AppController {
   getUsers() {
     return this.appService.getUsers();
   }
+
+  @Get('/products')
+  getProducts() {
+    return [
+      {
+        name: 'Prima',
+        id: '12321-prima',
+        price: '2$'
+      },
+      {
+        name: 'Ratmans',
+        id: '123221-ratmans',
+        price: '4$'
+      },
+      {
+        name: 'Chapman',
+        id: '12321-chapman',
+        price: '6$'
+      }
+    ]
+  }
 }
